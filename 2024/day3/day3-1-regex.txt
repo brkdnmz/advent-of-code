@@ -1,0 +1,10 @@
+mul\(([0-9]+),([0-9]+)\)
+
+VS Code:
+- Hit Ctrl + F/H
+- Enable regex mode
+- Search for the expr above
+- Select all with Ctrl + Shift + L
+- Ctrl + C, Ctrl + A, Ctrl + V
+
+Then use the same regex, replace all with: $1 $2
